@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#e2e0d7"/>
+  <!-- rolling hills -->
+  <path d="M0 220 Q50 180 120 200 Q200 160 280 190 Q350 170 400 200 L400 300 L0 300Z" fill="#d4e4c1" stroke="#5a7247" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M0 240 Q80 210 160 230 Q240 200 320 225 Q380 210 400 230 L400 300 L0 300Z" fill="#b8d4a3" stroke="#5a7247" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- sun -->
+  <circle cx="300" cy="100" r="35" fill="#fce588" stroke="#d4a843" stroke-width="2"/>
+  <!-- sun rays - wobbly hand-drawn lines -->
+  <line x1="300" y1="55" x2="298" y2="38" stroke="#d4a843" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="330" y1="72" x2="345" y2="58" stroke="#d4a843" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="340" y1="100" x2="358" y2="102" stroke="#d4a843" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="330" y1="128" x2="347" y2="140" stroke="#d4a843" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="270" y1="72" x2="257" y2="56" stroke="#d4a843" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="260" y1="100" x2="243" y2="98" stroke="#d4a843" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="270" y1="128" x2="255" y2="143" stroke="#d4a843" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- small tree -->
+  <line x1="80" y1="220" x2="82" y2="185" stroke="#6b5b3e" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="81" cy="175" r="18" fill="#7db36a" stroke="#5a7247" stroke-width="1.5"/>
+  <!-- small cloud -->
+  <path d="M140 80 Q145 65 160 68 Q170 55 185 65 Q200 58 205 72 Q215 72 212 82 Q218 90 205 92 Q200 100 185 95 Q170 102 160 95 Q145 98 142 88 Q135 88 140 80Z" fill="white" stroke="#b0b0b0" stroke-width="1" stroke-linecap="round"/>
+</svg>

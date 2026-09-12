@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#d8dbd4"/>
+  <!-- pot -->
+  <path d="M160 200 Q158 202 165 260 Q168 268 200 270 Q232 268 235 260 Q242 202 240 200Z" fill="#d4a373" stroke="#8b6842" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- pot rim -->
+  <path d="M155 200 Q155 193 200 192 Q245 193 245 200 Q245 207 200 208 Q155 207 155 200Z" fill="#d4a373" stroke="#8b6842" stroke-width="1.5"/>
+  <!-- soil -->
+  <ellipse cx="200" cy="200" rx="38" ry="6" fill="#6b5044" opacity="0.3"/>
+  <!-- stems and leaves -->
+  <path d="M200 198 Q198 170 195 150" fill="none" stroke="#5a7a47" stroke-width="2" stroke-linecap="round"/>
+  <path d="M195 150 Q180 135 170 125" fill="none" stroke="#5a7a47" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M170 125 Q165 115 175 112 Q185 115 180 128" fill="#7db36a" stroke="#5a7a47" stroke-width="1" stroke-linecap="round"/>
+  <path d="M195 160 Q210 145 225 140" fill="none" stroke="#5a7a47" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M225 140 Q235 133 232 142 Q228 152 218 148" fill="#7db36a" stroke="#5a7a47" stroke-width="1" stroke-linecap="round"/>
+  <path d="M198 175 Q185 160 175 155" fill="none" stroke="#5a7a47" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M175 155 Q165 148 172 146 Q180 148 178 158" fill="#8cc47a" stroke="#5a7a47" stroke-width="1" stroke-linecap="round"/>
+  <!-- new tiny leaf sprouting -->
+  <path d="M200 198 Q205 185 215 178" fill="none" stroke="#7db36a" stroke-width="1" stroke-linecap="round"/>
+  <path d="M215 178 Q220 174 218 180 Q214 184 212 180" fill="#a3d48e" stroke="#5a7a47" stroke-width="0.8"/>
+</svg>

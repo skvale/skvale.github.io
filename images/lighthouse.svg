@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#d2d6da"/>
+  <!-- water -->
+  <path d="M0 230 Q50 225 100 230 Q150 235 200 230 Q250 225 300 230 Q350 235 400 230 L400 300 L0 300Z" fill="#c0d4e0" stroke="#8badc2" stroke-width="1" stroke-linecap="round"/>
+  <!-- rocky island -->
+  <path d="M150 230 Q170 218 200 215 Q230 218 250 230" fill="#b0a898" stroke="#8b7d6b" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- lighthouse body -->
+  <path d="M188 215 L185 140 Q185 135 200 135 Q215 135 215 140 L212 215Z" fill="#f5f0ea" stroke="#6b5044" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- red stripe -->
+  <path d="M187 170 L186 185 L214 185 L213 170Z" fill="#c47a5a" stroke="#a05a3a" stroke-width="1"/>
+  <!-- lantern room -->
+  <rect x="185" y="128" width="30" height="12" rx="2" fill="#fce588" stroke="#6b5044" stroke-width="1.5"/>
+  <!-- roof -->
+  <path d="M183 128 L200 115 L217 128" fill="#6b5044" stroke="#6b5044" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- light beams -->
+  <line x1="215" y1="132" x2="260" y2="118" stroke="#fce588" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <line x1="215" y1="136" x2="265" y2="136" stroke="#fce588" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+  <line x1="185" y1="132" x2="140" y2="118" stroke="#fce588" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <line x1="185" y1="136" x2="135" y2="136" stroke="#fce588" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+  <!-- birds -->
+  <path d="M90 100 Q95 95 100 100" fill="none" stroke="#8b7d6b" stroke-width="1" stroke-linecap="round"/>
+  <path d="M110 90 Q115 85 120 90" fill="none" stroke="#8b7d6b" stroke-width="1" stroke-linecap="round"/>
+  <path d="M300 80 Q305 75 310 80" fill="none" stroke="#8b7d6b" stroke-width="1" stroke-linecap="round"/>
+</svg>

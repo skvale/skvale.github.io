@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#000012"/>
+  <!-- ground -->
+  <path d="M80 240 Q200 235 320 240" fill="none" stroke="#4a4a5a" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- logs -->
+  <path d="M140 240 Q145 235 200 250 Q210 252 260 238" fill="none" stroke="#8b6842" stroke-width="4" stroke-linecap="round"/>
+  <path d="M150 245 Q155 250 200 238 Q250 250 255 248" fill="none" stroke="#6b5044" stroke-width="4" stroke-linecap="round"/>
+  <!-- fire - outer glow -->
+  <path d="M180 235 Q175 200 185 175 Q195 145 200 130 Q205 145 215 175 Q225 200 220 235Z" fill="#c47a3a" opacity="0.3"/>
+  <!-- fire - main flame -->
+  <path d="M185 235 Q182 210 190 185 Q198 160 200 148 Q202 160 210 185 Q218 210 215 235Z" fill="#e8943a" opacity="0.7"/>
+  <!-- fire - inner flame -->
+  <path d="M192 235 Q190 215 195 195 Q200 178 200 170 Q200 178 205 195 Q210 215 208 235Z" fill="#fce588" opacity="0.8"/>
+  <!-- sparks -->
+  <circle cx="190" cy="125" r="1.5" fill="#fce588" opacity="0.7"/>
+  <circle cx="210" cy="118" r="1" fill="#fce588" opacity="0.5"/>
+  <circle cx="205" cy="108" r="1.2" fill="#fce588" opacity="0.6"/>
+  <circle cx="195" cy="100" r="0.8" fill="#fce588" opacity="0.4"/>
+  <!-- stars -->
+  <circle cx="80" cy="60" r="1.5" fill="#fefcf3" opacity="0.6"/>
+  <circle cx="150" cy="40" r="1" fill="#fefcf3" opacity="0.4"/>
+  <circle cx="320" cy="55" r="1.5" fill="#fefcf3" opacity="0.6"/>
+  <circle cx="270" cy="35" r="1" fill="#fefcf3" opacity="0.5"/>
+  <circle cx="350" cy="80" r="1" fill="#fefcf3" opacity="0.3"/>
+  <circle cx="55" cy="90" r="1" fill="#fefcf3" opacity="0.4"/>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 280" fill="none">
+  <rect width="600" height="280" fill="#e2e0db"/>
+  <!-- browser chrome -->
+  <rect x="0" y="0" width="600" height="28" fill="#f0ebe3" stroke="#c4b8a8" stroke-width="1"/>
+  <circle cx="14" cy="14" r="4" fill="#e8a0a0" opacity="0.6"/>
+  <circle cx="28" cy="14" r="4" fill="#e8d080" opacity="0.6"/>
+  <circle cx="42" cy="14" r="4" fill="#8cb87a" opacity="0.6"/>
+  <rect x="70" y="6" width="460" height="16" rx="4" fill="#fefcf7" stroke="#c4b8a8" stroke-width="0.8"/>
+  <path d="M82 14 Q95 12 120 14 Q135 13 160 14" fill="none" stroke="#b0a898" stroke-width="0.8" stroke-linecap="round"/>
+
+  <!-- sidebar -->
+  <rect x="0" y="28" width="120" height="252" fill="#f8f4ec"/>
+  <line x1="120" y1="28" x2="120" y2="280" stroke="#c4b8a8" stroke-width="0.8"/>
+  <path d="M15 50 Q25 48 45 50" fill="none" stroke="#8b7d6b" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M15 70 Q28 68 55 70" fill="none" stroke="#8b7d6b" stroke-width="1" stroke-linecap="round"/>
+  <path d="M15 90 Q32 88 60 90" fill="none" stroke="#8b7d6b" stroke-width="1" stroke-linecap="round"/>
+  <path d="M15 110 Q35 108 70 110" fill="none" stroke="#8b7d6b" stroke-width="1" stroke-linecap="round"/>
+  <rect x="8" y="125" width="104" height="18" rx="3" fill="#e8e0d4" opacity="0.5"/>
+  <path d="M15 135 Q28 133 48 135" fill="none" stroke="#6b5044" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- main content - add transaction form -->
+  <path d="M140 48 Q170 46 230 48" fill="none" stroke="#6b5044" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- date field -->
+  <path d="M145 78 Q155 76 172 78" fill="none" stroke="#8b7d6b" stroke-width="0.9" stroke-linecap="round"/>
+  <rect x="145" y="86" width="140" height="26" rx="4" fill="#fefcf7" stroke="#c4b8a8" stroke-width="1"/>
+  <path d="M155 100 Q172 98 210 100" fill="none" stroke="#6b5044" stroke-width="0.9" stroke-linecap="round"/>
+
+  <!-- description field -->
+  <path d="M310 78 Q328 76 362 78" fill="none" stroke="#8b7d6b" stroke-width="0.9" stroke-linecap="round"/>
+  <rect x="310" y="86" width="260" height="26" rx="4" fill="#fefcf7" stroke="#c4b8a8" stroke-width="1"/>
+  <path d="M320 100 Q345 98 400 100" fill="none" stroke="#6b5044" stroke-width="0.9" stroke-linecap="round"/>
+
+  <!-- posting 1 -->
+  <path d="M145 130 Q162 128 192 130" fill="none" stroke="#8b7d6b" stroke-width="0.9" stroke-linecap="round"/>
+  <rect x="145" y="138" width="280" height="26" rx="4" fill="#fefcf7" stroke="#c4b8a8" stroke-width="1"/>
+  <path d="M155 152 Q185 150 255 152" fill="none" stroke="#6b5044" stroke-width="0.9" stroke-linecap="round"/>
+  <!-- amount -->
+  <rect x="445" y="138" width="125" height="26" rx="4" fill="#fefcf7" stroke="#c4b8a8" stroke-width="1"/>
+  <path d="M458 152 Q475 150 505 152" fill="none" stroke="#c47a5a" stroke-width="0.9" stroke-linecap="round"/>
+
+  <!-- posting 2 -->
+  <path d="M145 180 Q162 178 192 180" fill="none" stroke="#8b7d6b" stroke-width="0.9" stroke-linecap="round"/>
+  <rect x="145" y="188" width="280" height="26" rx="4" fill="#fefcf7" stroke="#c4b8a8" stroke-width="1"/>
+  <path d="M155 202 Q180 200 240 202" fill="none" stroke="#6b5044" stroke-width="0.9" stroke-linecap="round"/>
+  <!-- amount (auto) -->
+  <rect x="445" y="188" width="125" height="26" rx="4" fill="#f8f4ec" stroke="#c4b8a8" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- add another posting link -->
+  <path d="M145 232 Q150 232 155 232" fill="none" stroke="#5a8a4a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M165 232 Q188 230 235 232" fill="none" stroke="#5a8a4a" stroke-width="0.9" stroke-linecap="round"/>
+
+  <!-- submit button -->
+  <rect x="145" y="250" width="80" height="24" rx="5" fill="#6b5044" opacity="0.8"/>
+  <path d="M162 263 Q175 261 200 263" fill="none" stroke="#fefcf7" stroke-width="1" stroke-linecap="round"/>
+</svg>

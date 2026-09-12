@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#d4d7dc"/>
+  <!-- paper airplane -->
+  <path d="M100 180 L280 120 L180 160Z" fill="#e8e4df" stroke="#6b6b7a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M180 160 L280 120 L200 200Z" fill="#d8d4cf" stroke="#6b6b7a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="180" y1="160" x2="200" y2="200" stroke="#6b6b7a" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- fold line -->
+  <line x1="100" y1="180" x2="280" y2="120" stroke="#6b6b7a" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+  <!-- motion trail dashes -->
+  <line x1="75" y1="188" x2="55" y2="195" stroke="#b0b4c0" stroke-width="1" stroke-linecap="round"/>
+  <line x1="80" y1="175" x2="58" y2="178" stroke="#b0b4c0" stroke-width="1" stroke-linecap="round"/>
+  <line x1="90" y1="196" x2="65" y2="208" stroke="#b0b4c0" stroke-width="1" stroke-linecap="round"/>
+  <!-- tiny clouds -->
+  <path d="M300 90 Q305 82 315 85 Q322 80 328 87 Q335 86 332 93 Q336 98 328 99 Q320 103 312 98 Q305 100 303 95 Q297 94 300 90Z" fill="white" stroke="#c0c4d0" stroke-width="0.8"/>
+  <path d="M60 100 Q63 94 70 96 Q75 92 80 97 Q85 96 83 101 Q86 104 80 105 Q74 108 68 104 Q63 106 62 102 Q58 101 60 100Z" fill="white" stroke="#c0c4d0" stroke-width="0.8"/>
+</svg>

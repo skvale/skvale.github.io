@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#c7cbc5"/>
+  <!-- pond -->
+  <ellipse cx="200" cy="230" rx="150" ry="40" fill="#c8dce8" opacity="0.4" stroke="#8badc2" stroke-width="1"/>
+  <!-- lily pads -->
+  <ellipse cx="160" cy="225" rx="22" ry="8" fill="#8cb87a" opacity="0.5" stroke="#5a7a47" stroke-width="0.8"/>
+  <path d="M160 225 L160 217" fill="none" stroke="#5a7a47" stroke-width="0.6"/>
+  <ellipse cx="240" cy="235" rx="18" ry="6" fill="#8cb87a" opacity="0.4" stroke="#5a7a47" stroke-width="0.8"/>
+  <line x1="240" y1="229" x2="240" y2="241" stroke="#5a7a47" stroke-width="0.5" opacity="0.3"/>
+  <!-- small flower on lily pad -->
+  <circle cx="162" cy="218" r="3" fill="#e8a0b0" opacity="0.6"/>
+  <circle cx="162" cy="218" r="1.5" fill="#fce588" opacity="0.7"/>
+  <!-- dragonfly skimming over water, side view -->
+  <!-- abdomen -->
+  <path d="M155 175 Q180 173 210 170 Q235 168 255 167" fill="none" stroke="#4a7a8a" stroke-width="2" stroke-linecap="round"/>
+  <!-- thorax -->
+  <ellipse cx="150" cy="175" rx="8" ry="4" fill="#5a9aaa" stroke="#4a7a8a" stroke-width="1"/>
+  <!-- head -->
+  <circle cx="140" cy="175" r="5" fill="#5a9aaa" stroke="#4a7a8a" stroke-width="1"/>
+  <!-- eyes -->
+  <circle cx="137" cy="173" r="2.5" fill="#2a5a6a"/>
+  <circle cx="143" cy="173" r="2.5" fill="#2a5a6a"/>
+  <!-- wings spread, catching light -->
+  <path d="M152 172 Q165 145 195 135 Q205 136 198 143 Q175 155 158 170" fill="#daeaf2" fill-opacity="0.4" stroke="#8badc2" stroke-width="0.8"/>
+  <path d="M155 172 Q170 150 198 142 Q206 144 200 150 Q180 160 160 170" fill="#daeaf2" fill-opacity="0.3" stroke="#8badc2" stroke-width="0.8"/>
+  <path d="M152 178 Q168 198 195 208 Q203 206 197 200 Q178 190 158 180" fill="#daeaf2" fill-opacity="0.4" stroke="#8badc2" stroke-width="0.8"/>
+  <path d="M155 179 Q170 196 192 203 Q198 200 194 196 Q178 188 160 180" fill="#daeaf2" fill-opacity="0.3" stroke="#8badc2" stroke-width="0.8"/>
+  <!-- shadow/reflection on water -->
+  <ellipse cx="175" cy="228" rx="30" ry="4" fill="#4a7a8a" opacity="0.08"/>
+  <!-- ripples where dragonfly nearly touches -->
+  <path d="M140 222 Q150 220 160 222" fill="none" stroke="#8badc2" stroke-width="0.6" opacity="0.4"/>
+  <!-- cattails on far side -->
+  <line x1="310" y1="200" x2="312" y2="155" stroke="#7a9a60" stroke-width="1.5" stroke-linecap="round"/>
+  <ellipse cx="312" cy="152" rx="3" ry="8" fill="#6b5044" opacity="0.6"/>
+  <line x1="325" y1="205" x2="324" y2="165" stroke="#7a9a60" stroke-width="1.5" stroke-linecap="round"/>
+  <ellipse cx="324" cy="162" rx="3" ry="7" fill="#6b5044" opacity="0.6"/>
+</svg>

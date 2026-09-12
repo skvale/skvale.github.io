@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+		<script>
+			(function() {
+				const stored = localStorage.getItem('theme');
+				if (stored === 'dark' || (!stored && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+					document.documentElement.classList.add('dark');
+				}
+			})();
+		</script>
+		<link href="../_app/immutable/entry/start.CLVn6U-c.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/BAU_AJdU.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/BbfACK7f.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/B8vaOg3U.js" rel="modulepreload">
+		<link href="../_app/immutable/entry/app.DY7l1VBP.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/B0BvW1x3.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/Cfug8aQt.js" rel="modulepreload">
+		<link href="../_app/immutable/nodes/0.CzQaIqjS.js" rel="modulepreload">
+		<link href="../_app/immutable/nodes/4.e-hX0400.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/Bvo29yYM.js" rel="modulepreload">
+		<!--1teoznn--><meta name="description" content="A personal accounting app to learn double-entry bookkeeping — plain text, built on hledger, and easy to explore with an agent."/><!----><title>Personal Plain Text Accounting — skvale</title>
+		<link href="../_app/immutable/assets/0.CNoS_X1S.css" rel="stylesheet">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents"><!--[--><!--[0--><!--[--><div class="flex min-h-screen flex-col bg-stone-50 text-stone-800 dark:bg-stone-950 dark:text-stone-200"><a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-stone-800 focus:px-4 focus:py-2 focus:text-sm focus:text-white dark:focus:bg-stone-200 dark:focus:text-stone-900">Skip to main content</a> <header class="border-b border-stone-500 dark:border-stone-500"><nav class="mx-auto flex max-w-3xl items-center justify-between px-6 py-8" aria-label="Main"><a href="/" class="rounded-sm font-serif text-xl tracking-wide text-stone-700 transition-colors hover:text-stone-900 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-stone-400 dark:text-stone-300 dark:hover:text-stone-100 dark:focus-visible:outline-stone-500">skvale</a> <div class="flex items-center gap-6"><a href="/blog" class="rounded-sm text-sm tracking-wider text-stone-600 transition-colors hover:text-stone-800 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-stone-400 dark:text-stone-400 dark:hover:text-stone-200 dark:focus-visible:outline-stone-500">writing</a> <button class="cursor-pointer rounded-lg p-2 text-stone-600 transition-colors hover:bg-stone-200 hover:text-stone-900 focus-visible:ring-2 focus-visible:ring-stone-400 focus-visible:ring-offset-2 focus-visible:ring-offset-stone-50 focus-visible:outline-none dark:text-stone-400 dark:hover:bg-stone-800 dark:hover:text-stone-200 dark:focus-visible:ring-stone-500 dark:focus-visible:ring-offset-stone-950" aria-label="Switch to dark mode" aria-pressed="false"><svg class="size-4 dark:hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M7.455 2.004a.75.75 0 01.26.77 7 7 0 009.958 7.967.75.75 0 011.067.853A8.5 8.5 0 116.647 1.921a.75.75 0 01.808.083z" clip-rule="evenodd"></path></svg> <svg class="hidden size-4 dark:block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M10 2a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 0110 2zm0 13a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 0110 15zm8-5a.75.75 0 01-.75.75h-1.5a.75.75 0 010-1.5h1.5A.75.75 0 0118 10zM5 10a.75.75 0 01-.75.75h-1.5a.75.75 0 010-1.5h1.5A.75.75 0 015 10zm10.657-5.657a.75.75 0 010 1.06l-1.061 1.06a.75.75 0 01-1.06-1.06l1.06-1.06a.75.75 0 011.06 0zm-9.193 9.193a.75.75 0 010 1.06l-1.06 1.061a.75.75 0 11-1.061-1.06l1.06-1.061a.75.75 0 011.06 0zm9.193 0a.75.75 0 010 1.06l-1.06 1.061a.75.75 0 01-1.061-1.06l1.06-1.061a.75.75 0 011.061 0zM6.464 6.464a.75.75 0 010-1.06l-1.06-1.06a.75.75 0 10-1.061 1.06l1.06 1.06a.75.75 0 001.061 0zM10 6.5a3.5 3.5 0 100 7 3.5 3.5 0 000-7z"></path></svg></button></div></nav></header> <main id="main" class="mx-auto w-full max-w-3xl flex-1 px-6 py-16"><!--[--><article><style>
+		.prose img {
+			border-radius: 0.5rem;
+		}
+	</style> <div class="-mt-12 mb-6"><a href="/blog" class="inline-flex items-center gap-1 rounded-md px-3 py-1.5 text-sm font-medium tracking-wide text-stone-600 transition-colors hover:text-stone-800 hover:bg-stone-100 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-stone-400 dark:text-stone-400 dark:hover:text-stone-200 dark:hover:bg-stone-800 dark:focus-visible:outline-stone-500">← back</a></div> <div class="prose prose-stone prose-lg max-w-none dark:prose-invert prose-headings:font-serif prose-headings:tracking-wide prose-headings:font-normal prose-p:leading-[1.8] prose-p:text-stone-700 dark:prose-p:text-stone-300 prose-a:text-stone-700 dark:prose-a:text-stone-300 prose-a:decoration-stone-400 dark:prose-a:decoration-stone-600 hover:prose-a:text-stone-900 dark:hover:prose-a:text-stone-100 prose-strong:text-stone-800 dark:prose-strong:text-stone-200 prose-li:text-stone-700 dark:prose-li:text-stone-300"><img src="/images/plain-text-accounting.svg" alt="A hand-drawn ledger page with wobbly handwritten entries and a pencil" class="not-prose mb-8 block size-64 rounded-3xl border-2 border-stone-700 object-cover shadow-lg dark:border-stone-400"/> <h1 class="!mt-0 !mb-2">Personal Plain Text Accounting</h1> <time class="not-prose mb-8 block text-xs tracking-wider text-stone-600 dark:text-stone-400">April 6, 2026</time> <!--[--><p>I read <em>Your Money or Your Life</em> when I was younger and the idea stuck with me. I’ve been tracking my finances ever since.</p> <p>Paper was great at first. Tangible. Then I moved to spreadsheets and dabbled in accounting software.</p> <p>I encourage you to read the book if you haven’t and want to be more mindful of your spending.</p> <p>I recently evolved this by building a personal accounting app.</p> <p><img src="/images/logo.png" alt="Plaintext Personal Ledger"/> <a href="https://github.com/skvale/plaintext-personal-ledger" rel="nofollow">try it out</a></p> <p>You might want to use this if you’re curious about tracking personal finances with simple accounting tools that are free, keep all your data local, and help you learn.</p> <p>Or use it as a base to build something customized to your own wants. It’s never been easier to build your own tools.</p> <p>I wanted all the data to be plain text, so I landed on <a href="https://hledger.org/" rel="nofollow">hledger</a> as the underlying software. I also wanted it to be designed to help me grasp accounting concepts by doing accounting with my own finances.</p> <h2>Accounting with your own finances</h2> <p>Double-entry bookkeeping is a useful way to think about money movement. There’s an underlying math simplicity to it, but still enough complexity to deter folks who just want to track their personal finances. A hurdle to get over.</p> <p>The math idea is that this equation always stays balanced as money moves:</p> <pre class="language-undefined"><!----><code class="language-undefined">Assets = Liabilities + Equity + (Income - Expenses)</code><!----></pre> <p>Transactions move two or more of these variables up or down</p> <p>Getting paid can be an increase in <code>Income:salary</code> and <code>Assets:checking</code>. Both sides increase in positive numbers.</p> <p>Buying groceries with a credit card is an increase in <code>Expenses:food:groceries</code> and <code>Liabilities:credit-card</code>. The expense being negative in the equation balances the positive liabilities on the right side.</p> <p>It takes time and energy to get the subaccounts you want and map all the transactions to the right places, but that’s where software can help out.</p> <h2>Plaintext Personal Ledger</h2> <p>I built Plaintext Personal Ledger because I liked <a href="https://hledger.org/" rel="nofollow">hledger</a>, but felt like the UI could do a lot more for users. I also wanted to learn accounting concepts better myself.</p> <p>The goal is you can start using it today, and the accounting part will make sense as you go along.</p> <p>Plaintext refers to your data being stored in <code>.journal</code> files, which are formatted text files on your machine.</p> <p>A single transaction could look like this:</p> <pre class="language-undefined"><!----><code class="language-undefined">2026-03-15 Farmers Market
+    expenses:food:groceries    $42.50
+    assets:cash</code><!----></pre> <p>A date, a description, and two accounts — hledger infers the last account’s amount. (In this case -$42.50 to assets:cash)</p> <p>A few more might look like:</p> <pre class="language-undefined"><!----><code class="language-undefined">2026-03-01 Mortgage
+    expenses:housing:mortgage       $1,900.00
+    assets:checking
+
+2026-03-01 Paycheck
+    assets:checking                 $3,200.00
+    income:salary
+
+2026-03-03 Super Foods
+    expenses:food:groceries         $87.32
+    liabilities:credit-card
+
+2026-03-05 Electric company
+    expenses:housing:utilities      $64.20
+    assets:checking</code><!----></pre> <p>Simple formatted files. No database, no outside systems. You can open these in a text editor, search them, edit them directly, track changes with <code>git</code>, and generally have full control over it.</p> <p>You don’t need to interact with the files directly, Plaintext Personal Ledger handles everything, but it’s there.</p> <h2>The web UI</h2> <p>The app’s interface is designed to make the accounting concepts visible alongside the numbers. Or you can turn off the help to simplify the UI.</p> <p>For example, a transaction detail will show you:</p> <p><img src="/images/hledger-learning-mode.png" alt="learning mode showing how a transaction fits the accounting equation"/></p> <p>This breaks down how each transaction fits the accounting equation. It shows which accounts changed by how much.</p> <h2>You’ll want it automated</h2> <p>hledger can consume statements and create transactions from them. The workflow is:</p> <ul><li>“Upload” it into the app (everything is always local on your machine, it just organizes the uploads or associates them with transactions locally).</li> <li>Use the statement to generate a <code>.rules</code> file. This is the start of a mapping between transaction strings and the accounts it should be assigned to.</li> <li>Assign accounts to each new transaction or use the default, like <code>Expenses:unknown</code></li></ul> <p><img src="/images/unmapped.png" alt="add transaction"/></p> <p>It’s up to you what you want to track as subaccounts of the main accounts (Assets, Liabilities, Equity, Income, Expenses).</p> <p>This has been the time-consuming part starting out. Each transaction has a short description and you’ll want to map it to a subaccount. You’re free to create any subaccounts you want to categorize things into.</p> <p>Each time you choose a mapping for a transaction, it will create a rule to match future transactions like it to the same account. It also offers suggestions. A lot of the time it’s just 1 click if a rule doesn’t exist and it gets easier each month.</p> <h2>Plaintext files</h2> <p>Your plain text <code>.journal</code> files can be read, copied, version controlled, or looked at with an agent when you want to understand something better.</p> <p><a href="https://github.com/skvale/plaintext-personal-ledger" rel="nofollow">try it out</a> or build something with it for yourself.</p><!--]--></div></article><!--]--><!----></main> <footer class="border-t border-stone-200/60 dark:border-stone-800/60"><div class="mx-auto max-w-3xl px-6 py-12 text-center text-xs tracking-wider text-stone-600 dark:text-stone-400">© 2026</div></footer></div><!--]--><!--]--> <!--[-1--><!--]--><!--]-->
+			
+			<script>
+				{
+					__sveltekit_1nhsmqm = {
+						base: new URL("..", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("../_app/immutable/entry/start.CLVn6U-c.js"),
+						import("../_app/immutable/entry/app.DY7l1VBP.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 4],
+							data: [null,null],
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>

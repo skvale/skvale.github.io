@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#c7cbc5"/>
+  <!-- pond -->
+  <ellipse cx="200" cy="235" rx="155" ry="40" fill="#c8dce8" opacity="0.4" stroke="#8badc2" stroke-width="1"/>
+  <!-- lily pads -->
+  <ellipse cx="130" cy="240" rx="20" ry="7" fill="#8cb87a" opacity="0.45" stroke="#5a7a47" stroke-width="0.8"/>
+  <line x1="130" y1="233" x2="130" y2="247" stroke="#5a7a47" stroke-width="0.5" opacity="0.3"/>
+  <ellipse cx="280" cy="248" rx="16" ry="5.5" fill="#8cb87a" opacity="0.35" stroke="#5a7a47" stroke-width="0.7"/>
+  <line x1="280" y1="242.5" x2="280" y2="253.5" stroke="#5a7a47" stroke-width="0.5" opacity="0.25"/>
+  <ellipse cx="100" cy="252" rx="13" ry="4.5" fill="#8cb87a" opacity="0.3" stroke="#5a7a47" stroke-width="0.7"/>
+  <line x1="100" y1="247.5" x2="100" y2="256.5" stroke="#5a7a47" stroke-width="0.5" opacity="0.25"/>
+  <!-- small flower on lily pad -->
+  <circle cx="132" cy="234" r="2.8" fill="#e8a0b0" opacity="0.6"/>
+  <circle cx="132" cy="234" r="1.4" fill="#fce588" opacity="0.7"/>
+
+  <!-- JUMPING FISH arcing out of water -->
+  <!-- splash at takeoff point -->
+  <path d="M185 228 Q180 222 175 226" fill="none" stroke="#8badc2" stroke-width="0.8" opacity="0.5"/>
+  <path d="M185 228 Q190 221 195 226" fill="none" stroke="#8badc2" stroke-width="0.8" opacity="0.5"/>
+  <path d="M182 225 Q180 218 178 224" fill="none" stroke="#8badc2" stroke-width="0.6" opacity="0.4"/>
+  <path d="M188 225 Q190 218 192 224" fill="none" stroke="#8badc2" stroke-width="0.6" opacity="0.4"/>
+  <!-- water droplets in arc -->
+  <circle cx="195" cy="182" r="1.2" fill="#8badc2" opacity="0.35"/>
+  <circle cx="205" cy="170" r="1" fill="#8badc2" opacity="0.3"/>
+  <circle cx="178" cy="188" r="0.9" fill="#8badc2" opacity="0.3"/>
+  <circle cx="212" cy="178" r="1.1" fill="#8badc2" opacity="0.25"/>
+  <circle cx="220" cy="192" r="0.8" fill="#8badc2" opacity="0.25"/>
+
+  <!-- fish body (mid-leap, angled upward to the right) -->
+  <g transform="translate(205, 165) rotate(-35)">
+    <!-- body -->
+    <ellipse cx="0" cy="0" rx="18" ry="7" fill="#d4956a" stroke="#a06840" stroke-width="1"/>
+    <!-- belly highlight -->
+    <ellipse cx="0" cy="2" rx="14" ry="4" fill="#e8b898" opacity="0.5"/>
+    <!-- scales suggestion -->
+    <path d="M-8 -1 Q-5 -3 -2 -1" fill="none" stroke="#a06840" stroke-width="0.5" opacity="0.3"/>
+    <path d="M-2 -1 Q1 -3 4 -1" fill="none" stroke="#a06840" stroke-width="0.5" opacity="0.3"/>
+    <path d="M4 -1 Q7 -3 10 -1" fill="none" stroke="#a06840" stroke-width="0.5" opacity="0.3"/>
+    <path d="M-6 2 Q-3 0 0 2" fill="none" stroke="#a06840" stroke-width="0.4" opacity="0.25"/>
+    <path d="M0 2 Q3 0 6 2" fill="none" stroke="#a06840" stroke-width="0.4" opacity="0.25"/>
+    <!-- tail fin -->
+    <path d="M-16 -2 Q-24 -8 -26 -5 Q-22 -1 -24 3 Q-22 6 -16 2" fill="#c4845a" stroke="#a06840" stroke-width="0.8" stroke-linejoin="round"/>
+    <!-- dorsal fin -->
+    <path d="M-4 -6 Q0 -12 6 -7" fill="#c4845a" stroke="#a06840" stroke-width="0.8" stroke-linejoin="round"/>
+    <!-- pectoral fin -->
+    <path d="M4 3 Q8 8 6 5" fill="none" stroke="#a06840" stroke-width="0.8" stroke-linecap="round"/>
+    <!-- eye -->
+    <circle cx="12" cy="-1" r="2.2" fill="#fce8d0"/>
+    <circle cx="12.4" cy="-1" r="1.1" fill="#2a2a2a"/>
+    <circle cx="11.8" cy="-1.8" r="0.5" fill="#fff" opacity="0.4"/>
+    <!-- mouth -->
+    <path d="M17 0.5 Q18.5 0 17.5 -1" fill="none" stroke="#a06840" stroke-width="0.7" stroke-linecap="round"/>
+    <!-- gill line -->
+    <path d="M8 -3 Q9 0 8 3" fill="none" stroke="#a06840" stroke-width="0.6" opacity="0.4"/>
+  </g>
+
+  <!-- landing splash ripples -->
+  <path d="M220 230 Q230 226 240 230" fill="none" stroke="#8badc2" stroke-width="0.6" opacity="0.4"/>
+  <path d="M215 233 Q230 228 245 233" fill="none" stroke="#8badc2" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- general pond ripples -->
+  <path d="M150 242 Q170 238 190 242" fill="none" stroke="#8badc2" stroke-width="0.5" opacity="0.25"/>
+  <path d="M230 245 Q250 241 270 245" fill="none" stroke="#8badc2" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- cattails on far side -->
+  <line x1="320" y1="205" x2="322" y2="158" stroke="#7a9a60" stroke-width="1.5" stroke-linecap="round"/>
+  <ellipse cx="322" cy="155" rx="3" ry="8" fill="#6b5044" opacity="0.6"/>
+  <line x1="335" y1="210" x2="334" y2="168" stroke="#7a9a60" stroke-width="1.5" stroke-linecap="round"/>
+  <ellipse cx="334" cy="165" rx="3" ry="7" fill="#6b5044" opacity="0.6"/>
+  <line x1="345" y1="212" x2="346" y2="175" stroke="#7a9a60" stroke-width="1.2" stroke-linecap="round"/>
+  <ellipse cx="346" cy="172" rx="2.5" ry="6" fill="#6b5044" opacity="0.5"/>
+
+  <!-- distant reeds on left -->
+  <path d="M60 220 Q62 202 60 188" fill="none" stroke="#7a9a60" stroke-width="1" stroke-linecap="round"/>
+  <path d="M68 222 Q69 207 67 195" fill="none" stroke="#7a9a60" stroke-width="1" stroke-linecap="round"/>
+</svg>

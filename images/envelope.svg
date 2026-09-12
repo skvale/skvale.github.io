@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#dcd8d4"/>
+  <!-- open flap (behind envelope body, pointing up) -->
+  <path d="M100 110 L200 50 L300 110" fill="#f0ebe3" stroke="#8b7d6b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- envelope body -->
+  <path d="M100 110 Q98 112 100 220 Q102 225 200 228 Q298 225 300 220 Q302 112 300 110Z" fill="#fefcf7" stroke="#8b7d6b" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- stamp (top-right of body) -->
+  <rect x="258" y="118" width="25" height="30" rx="1" fill="#e8d4c8" stroke="#c47a5a" stroke-width="1" stroke-dasharray="2 2"/>
+  <circle cx="270" cy="133" r="6" fill="none" stroke="#c47a5a" stroke-width="0.8"/>
+  <!-- address lines -->
+  <line x1="130" y1="160" x2="220" y2="159" stroke="#c4b8a8" stroke-width="1" stroke-linecap="round"/>
+  <line x1="130" y1="175" x2="210" y2="174" stroke="#c4b8a8" stroke-width="1" stroke-linecap="round"/>
+  <line x1="130" y1="190" x2="195" y2="189" stroke="#c4b8a8" stroke-width="1" stroke-linecap="round"/>
+</svg>

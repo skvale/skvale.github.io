@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#dedad3"/>
+  <!-- page stack underneath (visible at bottom edge as layered pages) -->
+  <path d="M200 82 Q195 84 108 87 Q82 89 79 214 Q81 220 112 217 Q195 213 200 215Z" fill="#f0ebe3" stroke="#c4b8a8" stroke-width="0.8" stroke-linecap="round"/>
+  <path d="M200 82 Q205 84 292 87 Q318 89 321 214 Q319 220 288 217 Q205 213 200 215Z" fill="#f0ebe3" stroke="#c4b8a8" stroke-width="0.8" stroke-linecap="round"/>
+  <!-- second layer of pages -->
+  <path d="M200 81 Q195 83 109 86 Q83 88 80 212 Q82 218 113 215 Q195 212 200 214Z" fill="#f5f0e8" stroke="#c4b8a8" stroke-width="0.8" stroke-linecap="round"/>
+  <path d="M200 81 Q205 83 291 86 Q317 88 320 212 Q318 218 287 215 Q205 212 200 214Z" fill="#f5f0e8" stroke="#c4b8a8" stroke-width="0.8" stroke-linecap="round"/>
+  <!-- third layer -->
+  <path d="M200 80 Q195 82 110 85 Q84 87 81 211 Q83 216 114 214 Q195 211 200 213Z" fill="#f8f4ec" stroke="#c4b8a8" stroke-width="0.8" stroke-linecap="round"/>
+  <path d="M200 80 Q205 82 290 85 Q316 87 319 211 Q317 216 286 214 Q205 211 200 213Z" fill="#f8f4ec" stroke="#c4b8a8" stroke-width="0.8" stroke-linecap="round"/>
+  <!-- page edges visible at bottom (stacked thickness) -->
+  <path d="M80 212 Q82 222 115 220 Q195 217 200 219 Q205 217 285 220 Q318 222 320 212" fill="none" stroke="#c4b8a8" stroke-width="0.6"/>
+  <path d="M79 215 Q81 225 114 222 Q195 219 200 221 Q205 219 286 222 Q319 225 321 215" fill="none" stroke="#c4b8a8" stroke-width="0.6"/>
+  <!-- top pages (the open spread) -->
+  <!-- left page -->
+  <path d="M200 79 Q195 81 110 84 Q85 86 82 210 Q84 215 115 213 Q195 210 200 212Z" fill="#fefcf7" stroke="#8b7d6b" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- right page -->
+  <path d="M200 79 Q205 81 290 84 Q315 86 318 210 Q316 215 285 213 Q205 210 200 212Z" fill="#fefcf7" stroke="#8b7d6b" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- spine -->
+  <line x1="200" y1="79" x2="200" y2="212" stroke="#8b7d6b" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- spine shadow/depth line -->
+  <line x1="199" y1="80" x2="199" y2="212" stroke="#c4b8a8" stroke-width="0.5" stroke-linecap="round" opacity="0.5"/>
+  <!-- text lines left page -->
+  <line x1="115" y1="110" x2="175" y2="109" stroke="#c4b8a8" stroke-width="1" stroke-linecap="round"/>
+  <line x1="112" y1="125" x2="180" y2="124" stroke="#c4b8a8" stroke-width="1" stroke-linecap="round"/>
+  <line x1="114" y1="140" x2="170" y2="139" stroke="#c4b8a8" stroke-width="1" stroke-linecap="round"/>
+  <line x1="110" y1="155" x2="178" y2="154" stroke="#c4b8a8" stroke-width="1" stroke-linecap="round"/>
+  <line x1="113" y1="170" x2="160" y2="169" stroke="#c4b8a8" stroke-width="1" stroke-linecap="round"/>
+  <!-- text lines right page -->
+  <line x1="225" y1="110" x2="285" y2="109" stroke="#c4b8a8" stroke-width="1" stroke-linecap="round"/>
+  <line x1="222" y1="125" x2="290" y2="124" stroke="#c4b8a8" stroke-width="1" stroke-linecap="round"/>
+  <line x1="224" y1="140" x2="280" y2="139" stroke="#c4b8a8" stroke-width="1" stroke-linecap="round"/>
+  <line x1="220" y1="155" x2="288" y2="154" stroke="#c4b8a8" stroke-width="1" stroke-linecap="round"/>
+  <!-- small bookmark ribbon -->
+  <path d="M195 79 L193 60 L188 70 L183 58" fill="none" stroke="#c47a5a" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

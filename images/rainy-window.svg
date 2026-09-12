@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#ccc8c3"/>
+  <!-- window frame -->
+  <rect x="100" y="60" width="200" height="180" rx="3" fill="#c0d4e0" stroke="#8b7d6b" stroke-width="2"/>
+  <!-- window panes -->
+  <line x1="200" y1="60" x2="200" y2="240" stroke="#8b7d6b" stroke-width="2"/>
+  <line x1="100" y1="150" x2="300" y2="150" stroke="#8b7d6b" stroke-width="2"/>
+  <!-- raindrops on glass -->
+  <path d="M140 90 Q142 100 140 108" fill="none" stroke="#8badc2" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M165 80 Q167 95 165 115 Q164 125 166 135" fill="none" stroke="#8badc2" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M125 100 Q127 112 126 120" fill="none" stroke="#8badc2" stroke-width="1" stroke-linecap="round"/>
+  <path d="M240 85 Q242 100 240 118" fill="none" stroke="#8badc2" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M270 95 Q271 108 270 120 Q269 130 271 140" fill="none" stroke="#8badc2" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M220 75 Q221 85 220 95" fill="none" stroke="#8badc2" stroke-width="1" stroke-linecap="round"/>
+  <!-- drops on lower panes -->
+  <path d="M135 165 Q137 178 136 190" fill="none" stroke="#8badc2" stroke-width="1" stroke-linecap="round"/>
+  <path d="M260 160 Q261 175 260 195" fill="none" stroke="#8badc2" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- windowsill -->
+  <path d="M90 240 Q92 238 200 237 Q308 238 310 240 Q310 248 200 250 Q90 248 90 240Z" fill="#d4c8b8" stroke="#8b7d6b" stroke-width="1.5"/>
+  <!-- small mug on sill -->
+  <path d="M175 225 L173 240 Q174 244 185 245 Q196 244 197 240 L195 225Z" fill="#e8d4c8" stroke="#8b6842" stroke-width="1.2" stroke-linecap="round"/>
+  <ellipse cx="185" cy="225" rx="11" ry="3" fill="#e8d4c8" stroke="#8b6842" stroke-width="1.2"/>
+  <!-- steam from mug -->
+  <path d="M182 220 Q180 212 183 207" fill="none" stroke="#b0a090" stroke-width="1" stroke-linecap="round"/>
+  <path d="M188 218 Q190 210 188 204" fill="none" stroke="#b0a090" stroke-width="1" stroke-linecap="round"/>
+</svg>

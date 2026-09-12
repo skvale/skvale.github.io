@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#ced6dc"/>
+  <!-- clouds -->
+  <path d="M30 120 Q33 110 44 112 Q50 104 60 110 Q68 106 68 115 Q74 117 70 123 Q73 128 64 129 Q58 135 48 131 Q40 135 37 128 Q30 128 30 120Z" fill="white" stroke="#c0c8d4" stroke-width="0.8"/>
+  <path d="M300 160 Q304 150 315 153 Q322 145 332 152 Q340 148 340 157 Q347 159 342 165 Q345 170 336 171 Q330 177 320 173 Q312 177 309 170 Q302 170 300 160Z" fill="white" stroke="#c0c8d4" stroke-width="0.8"/>
+  <path d="M340 80 Q342 74 348 76 Q352 72 357 75 Q362 73 362 78 Q366 79 363 83 Q365 86 360 86 Q356 90 350 88 Q346 90 344 86 Q340 86 340 80Z" fill="white" stroke="#c0c8d4" stroke-width="0.8"/>
+  <!-- balloon envelope -->
+  <path d="M200 40 Q240 40 262 70 Q280 95 275 125 Q270 150 248 168 L152 168 Q130 150 125 125 Q120 95 138 70 Q160 40 200 40Z" fill="#f5ece0" stroke="#c47a5a" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- balloon panels -->
+  <path d="M200 40 Q205 90 210 130 Q215 150 218 168" fill="none" stroke="#c47a5a" stroke-width="0.8" opacity="0.5"/>
+  <path d="M200 40 Q195 90 190 130 Q185 150 182 168" fill="none" stroke="#c47a5a" stroke-width="0.8" opacity="0.5"/>
+  <path d="M200 40 Q220 60 238 100 Q250 130 248 168" fill="none" stroke="#c47a5a" stroke-width="0.8" opacity="0.4"/>
+  <path d="M200 40 Q180 60 162 100 Q150 130 152 168" fill="none" stroke="#c47a5a" stroke-width="0.8" opacity="0.4"/>
+  <!-- colored panel accents -->
+  <path d="M190 55 Q192 90 188 130 Q185 150 182 168 L152 168 Q150 130 162 100 Q175 65 190 55Z" fill="#c47a5a" opacity="0.12"/>
+  <path d="M210 55 Q208 90 212 130 Q215 150 218 168 L248 168 Q250 130 238 100 Q225 65 210 55Z" fill="#8badc2" opacity="0.12"/>
+  <!-- suspension lines -->
+  <line x1="158" y1="168" x2="178" y2="200" stroke="#8b7d6b" stroke-width="1" stroke-linecap="round"/>
+  <line x1="242" y1="168" x2="222" y2="200" stroke="#8b7d6b" stroke-width="1" stroke-linecap="round"/>
+  <line x1="175" y1="168" x2="182" y2="200" stroke="#8b7d6b" stroke-width="0.8" stroke-linecap="round" opacity="0.6"/>
+  <line x1="225" y1="168" x2="218" y2="200" stroke="#8b7d6b" stroke-width="0.8" stroke-linecap="round" opacity="0.6"/>
+  <!-- basket -->
+  <rect x="175" y="200" width="50" height="30" rx="3" fill="#d4c4a8" stroke="#8b7d6b" stroke-width="1.5"/>
+  <!-- basket weave lines -->
+  <line x1="175" y1="210" x2="225" y2="210" stroke="#8b7d6b" stroke-width="0.8" opacity="0.4"/>
+  <line x1="175" y1="220" x2="225" y2="220" stroke="#8b7d6b" stroke-width="0.8" opacity="0.4"/>
+  <line x1="190" y1="200" x2="190" y2="230" stroke="#8b7d6b" stroke-width="0.8" opacity="0.3"/>
+  <line x1="200" y1="200" x2="200" y2="230" stroke="#8b7d6b" stroke-width="0.8" opacity="0.3"/>
+  <line x1="210" y1="200" x2="210" y2="230" stroke="#8b7d6b" stroke-width="0.8" opacity="0.3"/>
+  <!-- birds -->
+  <path d="M80 80 Q85 75 90 80" fill="none" stroke="#8b7d6b" stroke-width="1" stroke-linecap="round"/>
+  <path d="M95 72 Q100 67 105 72" fill="none" stroke="#8b7d6b" stroke-width="1" stroke-linecap="round"/>
+  <path d="M130 200 Q135 195 140 200" fill="none" stroke="#8b7d6b" stroke-width="1" stroke-linecap="round"/>
+  <!-- distant hills -->
+  <path d="M0 270 Q60 255 120 265 Q180 260 240 268 Q300 258 360 265 Q380 262 400 268 L400 300 L0 300Z" fill="#c0d4c8" opacity="0.35"/>
+  <path d="M0 280 Q80 272 160 278 Q240 274 320 280 Q360 276 400 282 L400 300 L0 300Z" fill="#a8c0a8" opacity="0.25"/>
+</svg>

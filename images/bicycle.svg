@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#ded9d2"/>
+  <!-- ground line -->
+  <path d="M30 242 Q200 240 370 242" fill="none" stroke="#c4b8a8" stroke-width="1" stroke-linecap="round"/>
+
+  <!-- rear wheel -->
+  <circle cx="115" cy="200" r="40" fill="none" stroke="#6b5044" stroke-width="1.5"/>
+  <circle cx="115" cy="200" r="2.5" fill="#6b5044"/>
+  <!-- rear spokes -->
+  <line x1="115" y1="162" x2="115" y2="238" stroke="#6b5044" stroke-width="0.4" opacity="0.35"/>
+  <line x1="77" y1="200" x2="153" y2="200" stroke="#6b5044" stroke-width="0.4" opacity="0.35"/>
+  <line x1="87" y1="172" x2="143" y2="228" stroke="#6b5044" stroke-width="0.4" opacity="0.35"/>
+  <line x1="143" y1="172" x2="87" y2="228" stroke="#6b5044" stroke-width="0.4" opacity="0.35"/>
+
+  <!-- front wheel -->
+  <circle cx="285" cy="200" r="40" fill="none" stroke="#6b5044" stroke-width="1.5"/>
+  <circle cx="285" cy="200" r="2.5" fill="#6b5044"/>
+  <!-- front spokes -->
+  <line x1="285" y1="162" x2="285" y2="238" stroke="#6b5044" stroke-width="0.4" opacity="0.35"/>
+  <line x1="247" y1="200" x2="323" y2="200" stroke="#6b5044" stroke-width="0.4" opacity="0.35"/>
+  <line x1="257" y1="172" x2="313" y2="228" stroke="#6b5044" stroke-width="0.4" opacity="0.35"/>
+  <line x1="313" y1="172" x2="257" y2="228" stroke="#6b5044" stroke-width="0.4" opacity="0.35"/>
+
+  <!-- FRAME -->
+  <!-- bottom bracket (pedal axle) -->
+  <circle cx="185" cy="205" r="4" fill="#c47a5a"/>
+
+  <!-- chain stay: bottom bracket to rear axle -->
+  <line x1="185" y1="205" x2="115" y2="200" stroke="#c47a5a" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- seat tube: bottom bracket up to seat lug -->
+  <line x1="185" y1="205" x2="170" y2="135" stroke="#c47a5a" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- seat stay: seat lug to rear dropout -->
+  <line x1="170" y1="135" x2="115" y2="200" stroke="#c47a5a" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- top tube: seat lug to head tube top (level/slight rise) -->
+  <line x1="170" y1="135" x2="260" y2="132" stroke="#c47a5a" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- down tube: head tube bottom to bottom bracket -->
+  <line x1="264" y1="150" x2="185" y2="205" stroke="#c47a5a" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- head tube -->
+  <line x1="260" y1="132" x2="264" y2="150" stroke="#c47a5a" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- fork: head tube bottom to front axle (with rake) -->
+  <path d="M264 150 Q275 178 285 200" fill="none" stroke="#6b5044" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- COCKPIT -->
+  <!-- stem from head tube top, angling up -->
+  <line x1="260" y1="132" x2="255" y2="118" stroke="#6b5044" stroke-width="2" stroke-linecap="round"/>
+  <!-- drop handlebars -->
+  <path d="M248 118 Q255 114 262 118" fill="none" stroke="#6b5044" stroke-width="2" stroke-linecap="round"/>
+  <!-- drops curving down and forward -->
+  <path d="M248 118 Q244 125 246 132" fill="none" stroke="#6b5044" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M262 118 Q266 125 264 132" fill="none" stroke="#6b5044" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- SADDLE -->
+  <!-- seat post -->
+  <line x1="170" y1="135" x2="168" y2="118" stroke="#6b5044" stroke-width="2" stroke-linecap="round"/>
+  <!-- saddle (narrow, road style) -->
+  <path d="M158 119 Q168 115 179 119" fill="none" stroke="#6b5044" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- DRIVETRAIN -->
+  <!-- chainring -->
+  <circle cx="185" cy="205" r="10" fill="none" stroke="#8b7d6b" stroke-width="1" opacity="0.5"/>
+  <!-- rear cassette -->
+  <circle cx="115" cy="200" r="6" fill="none" stroke="#8b7d6b" stroke-width="0.8" opacity="0.4"/>
+  <!-- chain (top run) -->
+  <line x1="195" y1="203" x2="121" y2="199" stroke="#8b7d6b" stroke-width="0.8" opacity="0.4"/>
+  <!-- chain (bottom run) -->
+  <line x1="175" y1="208" x2="109" y2="203" stroke="#8b7d6b" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- crank arm and pedal -->
+  <line x1="185" y1="205" x2="178" y2="220" stroke="#6b5044" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="175" y1="219" x2="181" y2="222" stroke="#6b5044" stroke-width="2" stroke-linecap="round"/>
+</svg>

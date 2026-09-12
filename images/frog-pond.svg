@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#c7cbc5"/>
+  <!-- pond -->
+  <ellipse cx="200" cy="230" rx="150" ry="40" fill="#c8dce8" opacity="0.4" stroke="#8badc2" stroke-width="1"/>
+  <!-- lily pads -->
+  <ellipse cx="155" cy="225" rx="22" ry="8" fill="#8cb87a" opacity="0.5" stroke="#5a7a47" stroke-width="0.8"/>
+  <line x1="155" y1="217" x2="155" y2="233" stroke="#5a7a47" stroke-width="0.5" opacity="0.3"/>
+  <ellipse cx="245" cy="235" rx="18" ry="6" fill="#8cb87a" opacity="0.4" stroke="#5a7a47" stroke-width="0.8"/>
+  <line x1="245" y1="229" x2="245" y2="241" stroke="#5a7a47" stroke-width="0.5" opacity="0.3"/>
+  <ellipse cx="120" cy="240" rx="14" ry="5" fill="#8cb87a" opacity="0.35" stroke="#5a7a47" stroke-width="0.7"/>
+  <line x1="120" y1="235" x2="120" y2="245" stroke="#5a7a47" stroke-width="0.5" opacity="0.25"/>
+  <!-- small flower on lily pad -->
+  <circle cx="157" cy="218" r="3" fill="#e8a0b0" opacity="0.6"/>
+  <circle cx="157" cy="218" r="1.5" fill="#fce588" opacity="0.7"/>
+
+  <!-- FROG sitting on lily pad at 155,225 -->
+  <!-- back legs (tucked, visible behind body) -->
+  <path d="M145 216 Q138 220 135 218 Q133 215 138 212" fill="#5a8a4a" stroke="#3a6a2a" stroke-width="1" stroke-linecap="round"/>
+  <path d="M165 216 Q172 220 175 218 Q177 215 172 212" fill="#5a8a4a" stroke="#3a6a2a" stroke-width="1" stroke-linecap="round"/>
+  <!-- body -->
+  <ellipse cx="155" cy="212" rx="12" ry="8" fill="#6a9a5a" stroke="#4a7a3a" stroke-width="1.2"/>
+  <!-- body spots -->
+  <circle cx="150" cy="210" r="1.5" fill="#5a8a4a" opacity="0.4"/>
+  <circle cx="158" cy="208" r="1.2" fill="#5a8a4a" opacity="0.4"/>
+  <circle cx="153" cy="214" r="1" fill="#5a8a4a" opacity="0.3"/>
+  <!-- front legs -->
+  <path d="M146 216 L142 220 L138 219" fill="none" stroke="#4a7a3a" stroke-width="1" stroke-linecap="round"/>
+  <path d="M164 216 L168 220 L172 219" fill="none" stroke="#4a7a3a" stroke-width="1" stroke-linecap="round"/>
+  <!-- front feet (splayed toes) -->
+  <path d="M138 219 L136 218" fill="none" stroke="#4a7a3a" stroke-width="0.7" stroke-linecap="round"/>
+  <path d="M138 219 L136 220" fill="none" stroke="#4a7a3a" stroke-width="0.7" stroke-linecap="round"/>
+  <path d="M138 219 L137 221" fill="none" stroke="#4a7a3a" stroke-width="0.7" stroke-linecap="round"/>
+  <path d="M172 219 L174 218" fill="none" stroke="#4a7a3a" stroke-width="0.7" stroke-linecap="round"/>
+  <path d="M172 219 L174 220" fill="none" stroke="#4a7a3a" stroke-width="0.7" stroke-linecap="round"/>
+  <path d="M172 219 L173 221" fill="none" stroke="#4a7a3a" stroke-width="0.7" stroke-linecap="round"/>
+  <!-- head (wide, emerging from front of body) -->
+  <ellipse cx="155" cy="204" rx="10" ry="6" fill="#6a9a5a" stroke="#4a7a3a" stroke-width="1.2"/>
+  <!-- big bulging eyes (on top of head) -->
+  <circle cx="148" cy="200" r="4" fill="#7aaa5a" stroke="#4a7a3a" stroke-width="1"/>
+  <circle cx="162" cy="200" r="4" fill="#7aaa5a" stroke="#4a7a3a" stroke-width="1"/>
+  <!-- pupils -->
+  <ellipse cx="148" cy="200" rx="1.8" ry="2.5" fill="#1a3a0a"/>
+  <ellipse cx="162" cy="200" rx="1.8" ry="2.5" fill="#1a3a0a"/>
+  <!-- eye highlights -->
+  <circle cx="147" cy="198" r="0.8" fill="#aacca0" opacity="0.5"/>
+  <circle cx="161" cy="198" r="0.8" fill="#aacca0" opacity="0.5"/>
+  <!-- wide mouth line -->
+  <path d="M146 208 Q155 210 164 208" fill="none" stroke="#3a6a2a" stroke-width="0.8" stroke-linecap="round"/>
+  <!-- nostril dots -->
+  <circle cx="151" cy="205" r="0.5" fill="#3a6a2a"/>
+  <circle cx="159" cy="205" r="0.5" fill="#3a6a2a"/>
+
+  <!-- ripples around frog -->
+  <path d="M135 228 Q145 225 155 228 Q165 231 175 228" fill="none" stroke="#8badc2" stroke-width="0.6" opacity="0.4"/>
+
+  <!-- cattails on far side -->
+  <line x1="310" y1="200" x2="312" y2="155" stroke="#7a9a60" stroke-width="1.5" stroke-linecap="round"/>
+  <ellipse cx="312" cy="152" rx="3" ry="8" fill="#6b5044" opacity="0.6"/>
+  <line x1="325" y1="205" x2="324" y2="165" stroke="#7a9a60" stroke-width="1.5" stroke-linecap="round"/>
+  <ellipse cx="324" cy="162" rx="3" ry="7" fill="#6b5044" opacity="0.6"/>
+
+  <!-- dragonfly in distance -->
+  <path d="M270 145 Q275 143 282 142" fill="none" stroke="#4a7a8a" stroke-width="1" stroke-linecap="round"/>
+  <path d="M275 141 Q280 135 286 133" fill="none" stroke="#8badc2" stroke-width="0.5" opacity="0.4"/>
+  <path d="M275 144 Q280 149 285 150" fill="none" stroke="#8badc2" stroke-width="0.5" opacity="0.4"/>
+</svg>

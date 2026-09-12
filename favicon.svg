@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- pond water -->
+  <ellipse cx="16" cy="18" rx="12" ry="8" fill="#8badc2" opacity="0.5"/>
+  <ellipse cx="16" cy="18" rx="10" ry="6.5" fill="#a0c0d4" opacity="0.6"/>
+  <!-- subtle ripple -->
+  <ellipse cx="16" cy="18" rx="6" ry="3.5" fill="none" stroke="#c0d4e0" stroke-width="0.6" opacity="0.5"/>
+  <!-- small reed/grass left -->
+  <path d="M7 14 Q6 10 7 7" fill="none" stroke="#6b8a5e" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M9 15 Q8.5 11 10 8" fill="none" stroke="#7a9a6a" stroke-width="1" stroke-linecap="round"/>
+  <!-- small reed/grass right -->
+  <path d="M25 14 Q26 10 25 7" fill="none" stroke="#6b8a5e" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M23 15 Q23.5 11 22 8" fill="none" stroke="#7a9a6a" stroke-width="1" stroke-linecap="round"/>
+  <!-- lily pad -->
+  <ellipse cx="18" cy="17" rx="2.5" ry="1.5" fill="#7a9a6a" opacity="0.7"/>
+  <line x1="18" y1="15.5" x2="18" y2="17" stroke="#8badc2" stroke-width="0.4" opacity="0.5"/>
+</svg>

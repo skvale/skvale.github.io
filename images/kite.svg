@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#ced6dc"/>
+  <!-- kite body (wide part at top, narrow tail at bottom) -->
+  <path d="M200 60 L270 120 L200 210 L130 120Z" fill="#f5ece0" stroke="#c47a5a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- kite vertical strut -->
+  <line x1="200" y1="60" x2="200" y2="210" stroke="#c47a5a" stroke-width="1" stroke-linecap="round"/>
+  <!-- kite horizontal strut (at the wide point) -->
+  <line x1="130" y1="120" x2="270" y2="120" stroke="#c47a5a" stroke-width="1" stroke-linecap="round"/>
+  <!-- bridle string from cross point to main string -->
+  <line x1="200" y1="120" x2="210" y2="140" stroke="#8b7d6b" stroke-width="1" stroke-linecap="round"/>
+  <!-- kite string from bridle point down -->
+  <path d="M210 140 Q240 180 270 220 Q300 250 330 268" fill="none" stroke="#8b7d6b" stroke-width="1" stroke-linecap="round"/>
+  <!-- tail from bottom of kite -->
+  <path d="M200 210 Q195 225 190 235 Q185 248 180 258" fill="none" stroke="#8b7d6b" stroke-width="1" stroke-linecap="round"/>
+  <!-- tail bows -->
+  <path d="M193 228 Q198 223 203 228 Q198 233 193 228Z" fill="#c47a5a" opacity="0.6"/>
+  <path d="M183 252 Q188 247 193 252 Q188 257 183 252Z" fill="#7db36a" opacity="0.6"/>
+  <path d="M175 270 Q180 265 185 270 Q180 275 175 270Z" fill="#8badc2" opacity="0.6"/>
+  <!-- clouds -->
+  <path d="M40 80 Q45 68 58 72 Q66 62 78 70 Q88 65 88 76 Q95 78 90 85 Q92 92 82 93 Q75 100 62 95 Q50 100 46 92 Q38 92 40 80Z" fill="white" stroke="#c0c8d4" stroke-width="0.8"/>
+  <path d="M310 50 Q313 42 322 44 Q328 38 335 43 Q342 40 342 48 Q348 50 344 55 Q346 60 338 60 Q332 65 324 62 Q318 65 316 58 Q310 58 310 50Z" fill="white" stroke="#c0c8d4" stroke-width="0.8"/>
+  <!-- birds -->
+  <path d="M130 100 Q135 95 140 100" fill="none" stroke="#8b7d6b" stroke-width="1" stroke-linecap="round"/>
+  <path d="M145 108 Q150 103 155 108" fill="none" stroke="#8b7d6b" stroke-width="1" stroke-linecap="round"/>
+</svg>

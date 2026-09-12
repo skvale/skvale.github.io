@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#bfc4c7"/>
+  <!-- snow-covered ground -->
+  <path d="M0 185 Q50 180 100 187 Q150 193 200 185 Q250 179 300 187 Q350 193 400 183 L400 300 L0 300Z" fill="#e4e8ec" stroke="none"/>
+
+  <!-- clip pond to ground area -->
+  <clipPath id="ground-clip">
+    <path d="M0 185 Q50 180 100 187 Q150 193 200 185 Q250 179 300 187 Q350 193 400 183 L400 300 L0 300Z"/>
+  </clipPath>
+
+  <!-- frozen pond with ice -->
+  <ellipse cx="200" cy="238" rx="155" ry="38" fill="#d0e2ed" opacity="0.5" stroke="#a8c4d4" stroke-width="1" clip-path="url(#ground-clip)"/>
+  <!-- ice surface details -->
+  <path d="M120 235 Q150 230 180 236" fill="none" stroke="#b8d0de" stroke-width="0.6" opacity="0.4"/>
+  <path d="M200 240 Q230 234 260 240" fill="none" stroke="#b8d0de" stroke-width="0.5" opacity="0.35"/>
+  <path d="M160 245 Q185 240 210 245" fill="none" stroke="#b8d0de" stroke-width="0.4" opacity="0.3"/>
+  <!-- thin crack lines in ice -->
+  <path d="M175 232 L190 238 L195 234" fill="none" stroke="#a8c4d4" stroke-width="0.4" opacity="0.3"/>
+  <path d="M230 236 L245 240" fill="none" stroke="#a8c4d4" stroke-width="0.3" opacity="0.25"/>
+
+  <!-- snow patches on ice surface -->
+  <ellipse cx="150" cy="240" rx="20" ry="5" fill="#e4e8ec" opacity="0.4"/>
+  <ellipse cx="260" cy="243" rx="18" ry="4" fill="#e4e8ec" opacity="0.35"/>
+  <ellipse cx="200" cy="250" rx="14" ry="3.5" fill="#e4e8ec" opacity="0.3"/>
+
+  <!-- bare cattails (winter-dried) on left -->
+  <line x1="65" y1="210" x2="67" y2="157" stroke="#9a8a70" stroke-width="1.5" stroke-linecap="round"/>
+  <ellipse cx="67" cy="154" rx="3" ry="7" fill="#8a7560" opacity="0.5"/>
+  <line x1="80" y1="214" x2="79" y2="167" stroke="#9a8a70" stroke-width="1.5" stroke-linecap="round"/>
+  <ellipse cx="79" cy="164" rx="2.8" ry="6.5" fill="#8a7560" opacity="0.5"/>
+  <line x1="52" y1="213" x2="53" y2="170" stroke="#9a8a70" stroke-width="1.2" stroke-linecap="round"/>
+  <ellipse cx="53" cy="167" rx="2.3" ry="5.5" fill="#8a7560" opacity="0.45"/>
+  <!-- snow caps on cattails -->
+  <ellipse cx="67" cy="150" rx="4" ry="2" fill="#e4e8ec" opacity="0.6"/>
+  <ellipse cx="79" cy="160" rx="3.5" ry="1.8" fill="#e4e8ec" opacity="0.55"/>
+  <ellipse cx="53" cy="164" rx="3" ry="1.5" fill="#e4e8ec" opacity="0.5"/>
+
+  <!-- bare reeds on right -->
+  <path d="M335 218 Q337 198 335 180" fill="none" stroke="#9a8a70" stroke-width="1" stroke-linecap="round"/>
+  <path d="M345 220 Q346 204 344 188" fill="none" stroke="#9a8a70" stroke-width="1" stroke-linecap="round"/>
+  <path d="M325 222 Q326 208 324 194" fill="none" stroke="#9a8a70" stroke-width="0.8" stroke-linecap="round"/>
+
+  <!-- bare tree in background -->
+  <line x1="110" y1="210" x2="108" y2="120" stroke="#8a7a68" stroke-width="3" stroke-linecap="round"/>
+  <path d="M108 150 Q95 135 85 130" fill="none" stroke="#8a7a68" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M108 140 Q118 125 128 118" fill="none" stroke="#8a7a68" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M108 160 Q98 150 88 148" fill="none" stroke="#8a7a68" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M108 132 Q102 122 96 120" fill="none" stroke="#8a7a68" stroke-width="1" stroke-linecap="round"/>
+  <path d="M85 130 Q78 126 74 128" fill="none" stroke="#8a7a68" stroke-width="1" stroke-linecap="round"/>
+  <path d="M128 118 Q134 114 138 116" fill="none" stroke="#8a7a68" stroke-width="0.8" stroke-linecap="round"/>
+  <!-- snow on branches -->
+  <path d="M84 128 Q88 126 92 128" fill="none" stroke="#e4e8ec" stroke-width="2" stroke-linecap="round"/>
+  <path d="M126 116 Q130 114 134 116" fill="none" stroke="#e4e8ec" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M86 146 Q90 144 94 146" fill="none" stroke="#e4e8ec" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- falling snowflakes -->
+  <circle cx="50" cy="40" r="1.5" fill="#cdd5dc" opacity="0.5"/>
+  <circle cx="120" cy="65" r="1.2" fill="#cdd5dc" opacity="0.45"/>
+  <circle cx="200" cy="30" r="1.4" fill="#cdd5dc" opacity="0.5"/>
+  <circle cx="280" cy="55" r="1.3" fill="#cdd5dc" opacity="0.4"/>
+  <circle cx="350" cy="35" r="1.5" fill="#cdd5dc" opacity="0.45"/>
+  <circle cx="160" cy="90" r="1.1" fill="#cdd5dc" opacity="0.4"/>
+  <circle cx="310" cy="80" r="1.3" fill="#cdd5dc" opacity="0.35"/>
+  <circle cx="80" cy="110" r="1" fill="#cdd5dc" opacity="0.4"/>
+  <circle cx="240" cy="100" r="1.2" fill="#cdd5dc" opacity="0.35"/>
+  <circle cx="370" cy="120" r="1.1" fill="#cdd5dc" opacity="0.3"/>
+  <circle cx="30" cy="150" r="1.3" fill="#cdd5dc" opacity="0.35"/>
+  <circle cx="180" cy="140" r="1" fill="#cdd5dc" opacity="0.3"/>
+  <circle cx="330" cy="160" r="1.2" fill="#cdd5dc" opacity="0.3"/>
+  <circle cx="95" cy="175" r="1.1" fill="#cdd5dc" opacity="0.25"/>
+  <circle cx="260" cy="170" r="1" fill="#cdd5dc" opacity="0.25"/>
+
+  <!-- bird tracks in snow near pond edge -->
+  <path d="M290 218 L292 215 M290 218 L288 215 M290 218 L290 214" fill="none" stroke="#9a9a9a" stroke-width="0.4" opacity="0.3"/>
+  <path d="M298 220 L300 217 M298 220 L296 217 M298 220 L298 216" fill="none" stroke="#9a9a9a" stroke-width="0.4" opacity="0.25"/>
+  <path d="M305 216 L307 213 M305 216 L303 213 M305 216 L305 212" fill="none" stroke="#9a9a9a" stroke-width="0.4" opacity="0.2"/>
+</svg>

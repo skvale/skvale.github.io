@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#d4d9de"/>
+  <!-- still water -->
+  <ellipse cx="200" cy="220" rx="160" ry="30" fill="#c8dce8" stroke="#8badc2" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- leaf -->
+  <path d="M195 200 Q210 180 230 195 Q215 210 195 200Z" fill="#8cb87a" stroke="#5a7247" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="197" y1="200" x2="225" y2="190" stroke="#5a7247" stroke-width="1" stroke-linecap="round"/>
+  <!-- gentle ripples -->
+  <path d="M165 225 Q180 222 195 225 Q210 228 225 225" fill="none" stroke="#8badc2" stroke-width="1" stroke-linecap="round"/>
+  <path d="M150 235 Q175 231 200 235 Q225 239 250 235" fill="none" stroke="#8badc2" stroke-width="0.8" stroke-linecap="round" opacity="0.6"/>
+  <!-- tiny circles for zen feel -->
+  <circle cx="120" cy="100" r="2" fill="#c8dce8"/>
+  <circle cx="280" cy="80" r="3" fill="#c8dce8"/>
+  <circle cx="300" cy="140" r="2" fill="#c8dce8"/>
+  <circle cx="100" cy="150" r="2.5" fill="#c8dce8"/>
+</svg>

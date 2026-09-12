@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#d9d4cc"/>
+  <!-- warm sunset glow -->
+  <circle cx="320" cy="80" r="50" fill="#fce588" opacity="0.15"/>
+  <!-- first dragonfly (upper, flying right) -->
+  <!-- body -->
+  <path d="M120 110 Q140 108 165 105 Q185 103 200 102" fill="none" stroke="#8b5a3a" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="118" cy="110" rx="7" ry="4" fill="#a07050" stroke="#8b5a3a" stroke-width="1"/>
+  <circle cx="109" cy="110" r="4.5" fill="#a07050" stroke="#8b5a3a" stroke-width="1"/>
+  <circle cx="106" cy="108" r="2.2" fill="#4a3020"/>
+  <circle cx="112" cy="108" r="2.2" fill="#4a3020"/>
+  <!-- wings -->
+  <path d="M120 107 Q138 85 162 78 Q170 80 164 86 Q145 96 125 105" fill="#f0e8d8" fill-opacity="0.4" stroke="#c4a878" stroke-width="0.8"/>
+  <path d="M122 107 Q140 90 160 84 Q166 86 162 90 Q146 98 127 106" fill="#f0e8d8" fill-opacity="0.3" stroke="#c4a878" stroke-width="0.8"/>
+  <path d="M120 114 Q140 130 162 136 Q168 134 163 128 Q146 122 126 115" fill="#f0e8d8" fill-opacity="0.4" stroke="#c4a878" stroke-width="0.8"/>
+  <path d="M122 114 Q138 128 158 132 Q163 130 159 126 Q145 120 127 114" fill="#f0e8d8" fill-opacity="0.3" stroke="#c4a878" stroke-width="0.8"/>
+
+  <!-- second dragonfly (lower, flying left) -->
+  <!-- body -->
+  <path d="M280 185 Q260 183 235 180 Q215 178 200 177" fill="none" stroke="#4a6a78" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="282" cy="185" rx="7" ry="4" fill="#5a8a9a" stroke="#4a6a78" stroke-width="1"/>
+  <circle cx="291" cy="185" r="4.5" fill="#5a8a9a" stroke="#4a6a78" stroke-width="1"/>
+  <circle cx="294" cy="183" r="2.2" fill="#2a4a58"/>
+  <circle cx="288" cy="183" r="2.2" fill="#2a4a58"/>
+  <!-- wings -->
+  <path d="M280 182 Q262 160 238 153 Q230 155 236 161 Q255 171 275 180" fill="#d8e8f0" fill-opacity="0.4" stroke="#8badc2" stroke-width="0.8"/>
+  <path d="M278 182 Q263 165 242 158 Q236 160 240 164 Q255 173 274 181" fill="#d8e8f0" fill-opacity="0.3" stroke="#8badc2" stroke-width="0.8"/>
+  <path d="M280 189 Q262 208 240 214 Q234 212 238 206 Q255 197 276 190" fill="#d8e8f0" fill-opacity="0.4" stroke="#8badc2" stroke-width="0.8"/>
+  <path d="M278 189 Q264 204 245 210 Q240 208 243 204 Q257 196 274 189" fill="#d8e8f0" fill-opacity="0.3" stroke="#8badc2" stroke-width="0.8"/>
+
+  <!-- grass tufts at bottom -->
+  <path d="M50 270 Q55 250 52 240" fill="none" stroke="#7a9a60" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M55 270 Q58 248 62 238" fill="none" stroke="#7a9a60" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M340 275 Q342 255 338 245" fill="none" stroke="#7a9a60" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M345 275 Q350 258 352 248" fill="none" stroke="#7a9a60" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 280" fill="none">
+  <rect width="600" height="280" fill="#e2e0db"/>
+  <!-- browser chrome -->
+  <rect x="0" y="0" width="600" height="28" fill="#f0ebe3" stroke="#c4b8a8" stroke-width="1"/>
+  <!-- dots -->
+  <circle cx="14" cy="14" r="4" fill="#e8a0a0" opacity="0.6"/>
+  <circle cx="28" cy="14" r="4" fill="#e8d080" opacity="0.6"/>
+  <circle cx="42" cy="14" r="4" fill="#8cb87a" opacity="0.6"/>
+  <!-- url bar -->
+  <rect x="70" y="6" width="460" height="16" rx="4" fill="#fefcf7" stroke="#c4b8a8" stroke-width="0.8"/>
+  <path d="M82 14 Q95 12 120 14 Q135 13 155 14" fill="none" stroke="#b0a898" stroke-width="0.8" stroke-linecap="round"/>
+
+  <!-- sidebar -->
+  <rect x="0" y="28" width="120" height="252" fill="#f8f4ec"/>
+  <line x1="120" y1="28" x2="120" y2="280" stroke="#c4b8a8" stroke-width="0.8"/>
+  <!-- sidebar items -->
+  <path d="M15 50 Q25 48 45 50" fill="none" stroke="#8b7d6b" stroke-width="1.2" stroke-linecap="round"/>
+  <rect x="8" y="65" width="104" height="18" rx="3" fill="#e8e0d4" opacity="0.5"/>
+  <path d="M15 75 Q28 73 55 75" fill="none" stroke="#6b5044" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M15 98 Q30 96 60 98" fill="none" stroke="#8b7d6b" stroke-width="1" stroke-linecap="round"/>
+  <path d="M15 118 Q35 116 70 118" fill="none" stroke="#8b7d6b" stroke-width="1" stroke-linecap="round"/>
+  <path d="M15 138 Q30 136 55 138" fill="none" stroke="#8b7d6b" stroke-width="1" stroke-linecap="round"/>
+  <path d="M15 158 Q28 156 48 158" fill="none" stroke="#8b7d6b" stroke-width="1" stroke-linecap="round"/>
+
+  <!-- main content area - register view -->
+  <!-- header -->
+  <path d="M140 48 Q160 46 200 48 Q215 47 235 48" fill="none" stroke="#6b5044" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- table header -->
+  <rect x="135" y="62" width="455" height="20" fill="#f0ebe3" opacity="0.6"/>
+  <path d="M145 73 Q155 71 170 73" fill="none" stroke="#8b7d6b" stroke-width="0.9" stroke-linecap="round"/>
+  <path d="M230 73 Q248 71 280 73" fill="none" stroke="#8b7d6b" stroke-width="0.9" stroke-linecap="round"/>
+  <path d="M420 73 Q435 71 460 73" fill="none" stroke="#8b7d6b" stroke-width="0.9" stroke-linecap="round"/>
+  <path d="M520 73 Q535 71 560 73" fill="none" stroke="#8b7d6b" stroke-width="0.9" stroke-linecap="round"/>
+
+  <!-- transaction rows -->
+  <!-- row 1 -->
+  <path d="M145 98 Q160 96 185 98" fill="none" stroke="#6b5044" stroke-width="0.9" stroke-linecap="round"/>
+  <path d="M230 98 Q250 96 290 98" fill="none" stroke="#6b5044" stroke-width="0.9" stroke-linecap="round"/>
+  <path d="M420 98 Q440 96 475 98" fill="none" stroke="#c47a5a" stroke-width="0.9" stroke-linecap="round"/>
+  <path d="M520 98 Q540 96 570 98" fill="none" stroke="#6b5044" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="135" y1="108" x2="590" y2="108" stroke="#e8e0d4" stroke-width="0.5"/>
+
+  <!-- row 2 -->
+  <path d="M145 123 Q162 121 188 123" fill="none" stroke="#6b5044" stroke-width="0.9" stroke-linecap="round"/>
+  <path d="M230 123 Q255 121 300 123" fill="none" stroke="#6b5044" stroke-width="0.9" stroke-linecap="round"/>
+  <path d="M420 123 Q438 121 465 123" fill="none" stroke="#5a8a4a" stroke-width="0.9" stroke-linecap="round"/>
+  <path d="M520 123 Q542 121 575 123" fill="none" stroke="#6b5044" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="135" y1="133" x2="590" y2="133" stroke="#e8e0d4" stroke-width="0.5"/>
+
+  <!-- row 3 -->
+  <path d="M145 148 Q158 146 182 148" fill="none" stroke="#6b5044" stroke-width="0.9" stroke-linecap="round"/>
+  <path d="M230 148 Q252 146 285 148" fill="none" stroke="#6b5044" stroke-width="0.9" stroke-linecap="round"/>
+  <path d="M420 148 Q440 146 470 148" fill="none" stroke="#c47a5a" stroke-width="0.9" stroke-linecap="round"/>
+  <path d="M520 148 Q538 146 568 148" fill="none" stroke="#6b5044" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="135" y1="158" x2="590" y2="158" stroke="#e8e0d4" stroke-width="0.5"/>
+
+  <!-- row 4 -->
+  <path d="M145 173 Q160 171 186 173" fill="none" stroke="#6b5044" stroke-width="0.9" stroke-linecap="round"/>
+  <path d="M230 173 Q260 171 310 173" fill="none" stroke="#6b5044" stroke-width="0.9" stroke-linecap="round"/>
+  <path d="M420 173 Q442 171 472 173" fill="none" stroke="#c47a5a" stroke-width="0.9" stroke-linecap="round"/>
+  <path d="M520 173 Q540 171 565 173" fill="none" stroke="#6b5044" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="135" y1="183" x2="590" y2="183" stroke="#e8e0d4" stroke-width="0.5"/>
+
+  <!-- row 5 -->
+  <path d="M145 198 Q163 196 190 198" fill="none" stroke="#6b5044" stroke-width="0.9" stroke-linecap="round"/>
+  <path d="M230 198 Q248 196 278 198" fill="none" stroke="#6b5044" stroke-width="0.9" stroke-linecap="round"/>
+  <path d="M420 198 Q436 196 462 198" fill="none" stroke="#c47a5a" stroke-width="0.9" stroke-linecap="round"/>
+  <path d="M520 198 Q538 196 562 198" fill="none" stroke="#6b5044" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="135" y1="208" x2="590" y2="208" stroke="#e8e0d4" stroke-width="0.5"/>
+
+  <!-- row 6 -->
+  <path d="M145 223 Q160 221 183 223" fill="none" stroke="#6b5044" stroke-width="0.9" stroke-linecap="round"/>
+  <path d="M230 223 Q255 221 295 223" fill="none" stroke="#6b5044" stroke-width="0.9" stroke-linecap="round"/>
+  <path d="M420 223 Q440 221 468 223" fill="none" stroke="#c47a5a" stroke-width="0.9" stroke-linecap="round"/>
+  <path d="M520 223 Q540 221 570 223" fill="none" stroke="#6b5044" stroke-width="0.9" stroke-linecap="round"/>
+</svg>

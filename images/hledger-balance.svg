@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 280" fill="none">
+  <rect width="600" height="280" fill="#e2e0db"/>
+  <!-- browser chrome -->
+  <rect x="0" y="0" width="600" height="28" fill="#f0ebe3" stroke="#c4b8a8" stroke-width="1"/>
+  <circle cx="14" cy="14" r="4" fill="#e8a0a0" opacity="0.6"/>
+  <circle cx="28" cy="14" r="4" fill="#e8d080" opacity="0.6"/>
+  <circle cx="42" cy="14" r="4" fill="#8cb87a" opacity="0.6"/>
+  <rect x="70" y="6" width="460" height="16" rx="4" fill="#fefcf7" stroke="#c4b8a8" stroke-width="0.8"/>
+  <path d="M82 14 Q95 12 120 14 Q135 13 155 14" fill="none" stroke="#b0a898" stroke-width="0.8" stroke-linecap="round"/>
+
+  <!-- sidebar -->
+  <rect x="0" y="28" width="120" height="252" fill="#f8f4ec"/>
+  <line x1="120" y1="28" x2="120" y2="280" stroke="#c4b8a8" stroke-width="0.8"/>
+  <path d="M15 50 Q25 48 45 50" fill="none" stroke="#8b7d6b" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M15 70 Q28 68 55 70" fill="none" stroke="#8b7d6b" stroke-width="1" stroke-linecap="round"/>
+  <rect x="8" y="85" width="104" height="18" rx="3" fill="#e8e0d4" opacity="0.5"/>
+  <path d="M15 95 Q32 93 60 95" fill="none" stroke="#6b5044" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M15 118 Q35 116 70 118" fill="none" stroke="#8b7d6b" stroke-width="1" stroke-linecap="round"/>
+  <path d="M15 138 Q30 136 55 138" fill="none" stroke="#8b7d6b" stroke-width="1" stroke-linecap="round"/>
+
+  <!-- main content - balance view -->
+  <path d="M140 48 Q165 46 210 48 Q230 47 255 48" fill="none" stroke="#6b5044" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- account tree with amounts and bar chart -->
+  <!-- expenses header -->
+  <path d="M145 75 Q165 73 195 75" fill="none" stroke="#6b5044" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M480 75 Q500 73 540 75" fill="none" stroke="#c47a5a" stroke-width="1.1" stroke-linecap="round"/>
+
+  <!-- expenses:housing -->
+  <path d="M165 98 Q185 96 235 98" fill="none" stroke="#6b5044" stroke-width="0.9" stroke-linecap="round"/>
+  <path d="M480 98 Q498 96 532 98" fill="none" stroke="#c47a5a" stroke-width="0.9" stroke-linecap="round"/>
+  <!-- bar -->
+  <rect x="300" y="92" width="150" height="10" rx="2" fill="#c47a5a" opacity="0.25"/>
+
+  <!-- expenses:food -->
+  <path d="M165 123 Q180 121 215 123" fill="none" stroke="#6b5044" stroke-width="0.9" stroke-linecap="round"/>
+  <path d="M480 123 Q495 121 522 123" fill="none" stroke="#c47a5a" stroke-width="0.9" stroke-linecap="round"/>
+  <rect x="300" y="117" width="85" height="10" rx="2" fill="#c47a5a" opacity="0.25"/>
+
+  <!-- expenses:food:groceries (indented) -->
+  <path d="M185 143 Q205 141 248 143" fill="none" stroke="#8b7d6b" stroke-width="0.8" stroke-linecap="round"/>
+  <path d="M490 143 Q505 141 528 143" fill="none" stroke="#8b7d6b" stroke-width="0.8" stroke-linecap="round"/>
+  <rect x="300" y="137" width="60" height="8" rx="2" fill="#d4a873" opacity="0.2"/>
+
+  <!-- expenses:food:coffee (indented) -->
+  <path d="M185 160 Q202 158 240 160" fill="none" stroke="#8b7d6b" stroke-width="0.8" stroke-linecap="round"/>
+  <path d="M495 160 Q508 158 525 160" fill="none" stroke="#8b7d6b" stroke-width="0.8" stroke-linecap="round"/>
+  <rect x="300" y="155" width="25" height="8" rx="2" fill="#d4a873" opacity="0.2"/>
+
+  <!-- expenses:utilities -->
+  <path d="M165 183 Q185 181 225 183" fill="none" stroke="#6b5044" stroke-width="0.9" stroke-linecap="round"/>
+  <path d="M485 183 Q500 181 525 183" fill="none" stroke="#c47a5a" stroke-width="0.9" stroke-linecap="round"/>
+  <rect x="300" y="177" width="45" height="10" rx="2" fill="#c47a5a" opacity="0.25"/>
+
+  <!-- separator -->
+  <line x1="145" y1="202" x2="560" y2="202" stroke="#c4b8a8" stroke-width="0.8"/>
+
+  <!-- income header -->
+  <path d="M145 220 Q162 218 188 220" fill="none" stroke="#6b5044" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M480 220 Q500 218 545 220" fill="none" stroke="#5a8a4a" stroke-width="1.1" stroke-linecap="round"/>
+
+  <!-- income:salary -->
+  <path d="M165 243 Q182 241 218 243" fill="none" stroke="#6b5044" stroke-width="0.9" stroke-linecap="round"/>
+  <path d="M480 243 Q500 241 545 243" fill="none" stroke="#5a8a4a" stroke-width="0.9" stroke-linecap="round"/>
+  <rect x="300" y="237" width="180" height="10" rx="2" fill="#5a8a4a" opacity="0.2"/>
+
+  <!-- total line -->
+  <line x1="460" y1="260" x2="560" y2="260" stroke="#6b5044" stroke-width="1"/>
+  <path d="M480 272 Q500 270 545 272" fill="none" stroke="#6b5044" stroke-width="1.2" stroke-linecap="round"/>
+</svg>

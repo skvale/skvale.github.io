@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#d4d9d2"/>
+  <!-- reed stem -->
+  <path d="M200 300 Q198 250 195 180 Q193 140 196 100" fill="none" stroke="#7a9a60" stroke-width="2" stroke-linecap="round"/>
+  <!-- reed leaf -->
+  <path d="M195 160 Q175 145 165 130" fill="none" stroke="#7a9a60" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- dragonfly perched on reed tip, wings folded back -->
+  <!-- body -->
+  <path d="M196 100 Q200 97 210 95 Q225 93 250 88 Q268 85 280 83" fill="none" stroke="#4a6a78" stroke-width="2" stroke-linecap="round"/>
+  <!-- thorax (thicker part) -->
+  <ellipse cx="212" cy="94" rx="8" ry="3" fill="#5a8a9a" stroke="#4a6a78" stroke-width="1" transform="rotate(-5 212 94)"/>
+  <!-- head -->
+  <circle cx="198" cy="98" r="4" fill="#5a8a9a" stroke="#4a6a78" stroke-width="1"/>
+  <!-- eyes -->
+  <circle cx="195" cy="96" r="2" fill="#2a4a58"/>
+  <circle cx="200" cy="96" r="2" fill="#2a4a58"/>
+  <!-- upper wings (folded back along body) -->
+  <path d="M215 92 Q235 72 260 68 Q270 70 262 78 Q245 86 220 90" fill="#c8dce8" fill-opacity="0.4" stroke="#8badc2" stroke-width="0.8" stroke-linecap="round"/>
+  <path d="M215 96 Q235 76 258 73 Q266 76 258 82 Q242 90 220 94" fill="#c8dce8" fill-opacity="0.3" stroke="#8badc2" stroke-width="0.8" stroke-linecap="round"/>
+  <!-- lower wings -->
+  <path d="M215 96 Q232 108 252 115 Q260 114 255 108 Q240 98 220 94" fill="#c8dce8" fill-opacity="0.4" stroke="#8badc2" stroke-width="0.8" stroke-linecap="round"/>
+  <path d="M215 94 Q230 104 248 110 Q255 108 250 103 Q238 96 220 92" fill="#c8dce8" fill-opacity="0.3" stroke="#8badc2" stroke-width="0.8" stroke-linecap="round"/>
+  <!-- tiny legs gripping reed -->
+  <line x1="208" y1="97" x2="204" y2="100" stroke="#4a6a78" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="212" y1="97" x2="208" y2="101" stroke="#4a6a78" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="216" y1="96" x2="212" y2="101" stroke="#4a6a78" stroke-width="0.8" stroke-linecap="round"/>
+  <!-- water reflection dots at bottom -->
+  <circle cx="190" cy="270" r="1.5" fill="#8badc2" opacity="0.3"/>
+  <circle cx="210" cy="280" r="1" fill="#8badc2" opacity="0.2"/>
+</svg>
